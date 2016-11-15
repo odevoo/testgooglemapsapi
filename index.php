@@ -22,7 +22,7 @@
 
     <button type="submit" class="btn btn-success">Inscription</button>
  </form>   
-
+    <a href="map.html"><button class="btn btn-primary" type="">Afficher la map</button></a>
 
     <!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDVvV3H3-rcwoX6X-Jq1PXMOhiF-6EyO-E&libraries=places"></script> -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDVvV3H3-rcwoX6X-Jq1PXMOhiF-6EyO-E&signed_in=true&libraries=places&callback=initAutocomplete"

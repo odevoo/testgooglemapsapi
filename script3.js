@@ -54,7 +54,7 @@ function addMarker(i, lat, lng, firstname, lastname) {
         // if(img != ''){
         //    image = '<img src="'+base_url+'images/'+img+'" class="img-responsive img-thumbnail" />';
         // }
-        var content = '<div class=""><h4>' + firstname + '</h4><h4><span class="label label-danger"> $</span></h4></div>';
+        var content = '<div class=""><h4 class="text-center">' + firstname + '</h4><p class="text-center"><button class="btn btn-lg btn-danger">20€/h</button></p></div>';
         eval('var infowindow' + i + ' = new google.maps.InfoWindow({ content: content,  maxWidth: 370});');
         var infowindow_obj = eval('infowindow' + i);
         var marker_obj = eval('marker' + i);

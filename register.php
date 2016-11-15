@@ -11,4 +11,5 @@ $req->execute([$_POST['firstname'], $_POST['lastname'], $_POST['email'], $_POST[
 echo "<pre>";
 print_r($_POST);
 echo "</pre>";
+header('location: index.php');
  ?>
